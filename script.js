@@ -79,10 +79,10 @@ likebuttons.forEach((btn)=>{
         if(e.target.src.indexOf("blackheart")>0)
         {
             console.log("jkjk");
-            e.target.src="img/icons/redheart.png"
+            e.target.src="image/redheart.png"
         }
         else{
-            e.target.src="img/icons/blackheart.png"
+            e.target.src="image/blackheart.png"
         }
     })
 })
